@@ -1,0 +1,60 @@
+Trabajo Extraclase: 
+Flujo de Git con Ramas y Conflictos
+
+Valor: 10%
+Fecha de entrega: clase N#5
+
+Objetivo:
+Los estudiantes aprenderán a:
+
+- Crear y configurar un repositorio en GitHub.
+- Utilizar ramas para simular ambientes (DEV, QA, UAT y PROD).
+- Crear una rama feature/ para desarrollar una nueva funcionalidad.
+- Llevar el cambio desde local → DEV → QA → UAT → PROD (master).
+- Resolver un conflicto de código durante el proceso.
+
+Instrucciones
+
+1- Crear cuenta en GitHub (si no la tienen). 1%
+
+2- Configurar Git en su máquina local, además nombre + email en las configuraciones globales de GIT. 1%
+
+3- Crear un repositorio nuevo en GitHub llamado: practica-flujo-git. 1%
+
+4- Clonar el repositorio localmente en su computadora. 1%
+
+5- Configurar ramas para ambientes (Crear estas ramas y hacer push a GitHub): 0.5%
+
+main o master → PROD
+uat → UAT
+qa → QA
+dev → DEV
+
+6- Crear una rama feature llamada: feature/nueva-funcionalidad. 0.5%
+
+Editar un archivo (ej: app.js o README.md) agregando una funcionalidad o texto descriptivo.
+
+7- Llevar la rama por ambientes: 1%
+
+Hacer merge de feature/nueva-funcionalidad → dev.
+Luego pasar dev → qa.
+Luego qa → uat.
+Finalmente uat → main (PROD).
+
+8- Simular un conflicto: 2%
+
+Modificar el mismo archivo en dos ramas distintas (por ejemplo, dev y feature/nueva-funcionalidad).
+Al hacer el merge, se producirá un conflicto.
+Resolverlo manualmente editando el archivo, confirmando los cambios y completando el merge.
+
+9- Entrega: Enviar el enlace al repositorio en GitHub. 2%
+
+Incluya un archivo README con documentacion detallada de cada paso y capturas de pantalla de:
+
+Creacion de cuenta GITHUB.
+Creacion de repositorio.
+Creación de ramas.
+Conflicto.
+Resolución del conflicto.
+Merge final a main.
+Documentación del README.

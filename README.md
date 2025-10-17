@@ -12,14 +12,14 @@ Aplicar el flujo de trabajo con Git y GitHub, creando ramas que simulen ambiente
  Configuración 
 
 1 Creación de cuenta GitHub
-Se creó una cuenta en [GitHub](https://github.com/) bajo el usuario esteban23b. 
+Se creó una cuenta en gitHub bajo el usuario esteban23b. 
 
 
 2 Configuración de Git local
 Se configuró el nombre y correo
 
 git config --global user.name "Esteban Marenco"
-git config --global user.email "tu_correo@example.com"
+git config --global user.email "jorgeortegamarenco@gmail.com"
 
 
 3 Creación del repositorio en GitHub
@@ -57,7 +57,6 @@ Se editó el archivo con una breve descripción del cambio.
 Los cambios se llevaron progresivamente por los ambientes:
 
 
-Copiar código
 # 1. De feature → dev
 git checkout dev
 git merge feature/nueva-funcionalidad
@@ -104,9 +103,9 @@ Aparecieron los marcadores de conflicto:
 solución 
 
 <<<<<<< HEAD
-Texto en dev
+cambio en dev
 =======
-Texto en feature
+cambio en feature
 >>>>>>> feature/nueva-funcionalidad
 lo se resolví editando el bloc
 
@@ -136,5 +135,5 @@ git push origin master
 
 
 
-
+https://github.com/Dereck-Vallejos26/practica-flujo-git.git
 
